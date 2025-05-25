@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEE0F5"
+    >
+
+
+    <TextView
+        android:id="@+id/texto_serie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUESTÕES 1°ANO"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/questao1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUESTÃO 1"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/pergunta1"
+        android:layout_width="311dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#2F376B"
+        android:text="Qual das alternativas apresenta duas figuras de linguagem?"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/alt1"
+        android:layout_width="318dp"
+        android:layout_height="49dp"
+        android:text="Adjetivo e pronome"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="320dp"
+        android:backgroundTint="#4d6f9f"/>
+
+    <Button
+        android:id="@+id/alt2"
+        android:layout_width="318dp"
+        android:layout_height="49dp"
+        android:text="Metáfora e hipérbole"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="397dp"
+        android:backgroundTint="#4d6f9f"/>
+
+    <Button
+        android:id="@+id/alt3"
+        android:layout_width="318dp"
+        android:layout_height="49dp"
+        android:text="Sujeito e predicado"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="472dp"
+        android:backgroundTint="#4d6f9f"/>
+
+    <Button
+        android:id="@+id/alt4"
+        android:layout_width="318dp"
+        android:layout_height="49dp"
+        android:text="Conjunção e advérbio"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="551dp"
+        android:backgroundTint="#4d6f9f"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
