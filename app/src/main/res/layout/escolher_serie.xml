@@ -2,51 +2,91 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#CEE0F5" >
 
 
     <TextView
         android:id="@+id/texto_serie"
-        android:layout_width="255dp"
-        android:layout_height="29dp"
+        android:layout_width="232dp"
+        android:layout_height="87dp"
         android:text="ESCOLHA UMA SÉRIE"
         android:textAlignment="center"
-        android:textSize="20dp"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:textColor="#2F376B"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="104dp" />
 
-    <Button
+
+
+
+
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/primeira_serie"
         android:layout_width="295dp"
         android:layout_height="47dp"
-        android:text="1 SÉRIE ENSINO MÉDIO"
-        android:textColor="#0000FF"
-        android:backgroundTint="@color/white"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="289dp" />
+        android:background="@drawable/botao_borda_azul"
+        android:text="1ª SÉRIE ENSINO MÉDIO"
+        android:textColor="#2B3A67"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="272dp" />
 
 
 
-    <Button
+
+
+
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/segunda_serie"
         android:layout_width="295dp"
         android:layout_height="47dp"
+        android:background="@drawable/botao_borda_azul"
         android:text="2 SÉRIE ENSINO MÉDIO"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="357dp"
-        android:textColor="#0000FF"
-        android:backgroundTint="@color/white"/>
+
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="342dp" />
 
 
-    <Button
+
+
+
+
+
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/terceira_serie"
         android:layout_width="295dp"
         android:layout_height="47dp"
+        android:background="@drawable/botao_borda_azul"
         android:text="3 SÉRIE ENSINO MÉDIO"
+
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/botao_gabarito"
+        android:layout_width="297dp"
+        android:layout_height="60dp"
+        android:text="GABARITO"
+        android:textColor="@color/white"
+        android:backgroundTint="#2F376B"
         tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="430dp"
-        android:textColor="#0000FF"
-        android:backgroundTint="@color/white"/>
+        tools:layout_editor_absoluteY="532dp"
+        android:background="@drawable/botao_borda_azul"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
