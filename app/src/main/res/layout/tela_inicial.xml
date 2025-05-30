@@ -6,15 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="#CEE0F5"
     >
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Começar agora"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="495dp" />
+
 
 
 
@@ -28,13 +23,38 @@
         tools:layout_editor_absoluteX="97dp"
         tools:layout_editor_absoluteY="84dp" />
 
+
+
+
     <TextView
         android:id="@+id/textView"
+        android:layout_width="392dp"
+        android:layout_height="36dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Onde o conhecimento gira em torno de você"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="366dp"
+        android:textColor="#2F376B"/>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Slogan"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="363dp" />
+        android:text="Começar agora"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="495dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#2F376B"/>
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
