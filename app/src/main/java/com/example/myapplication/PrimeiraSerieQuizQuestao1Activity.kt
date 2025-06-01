@@ -10,6 +10,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.content.ContextCompat
 import android.os.Handler
 import android.os.Looper
+import com.example.myapplication.Pontuacao
 
 class PrimeiraSerieQuizQuestao1Activity : AppCompatActivity() {
 
@@ -39,11 +40,13 @@ class PrimeiraSerieQuizQuestao1Activity : AppCompatActivity() {
         }
 
         alternativa2.setOnClickListener {
+            Pontuacao.acertos += 1
             alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
                 val intent = Intent(this, PrimeiraSerieQuestao2Activity::class.java)
                 startActivity(intent)
+
             }, 500)
         }
 

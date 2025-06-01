@@ -22,11 +22,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/questao1"
+        android:id="@+id/questao2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
-        android:text="QUESTÃO 1"
+        android:text="QUESTÃO 2"
         android:textColor="@android:color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,16 +36,16 @@
 
     <Button
         android:id="@+id/pergunta1"
-        android:layout_width="311dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="326dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="48dp"
         android:backgroundTint="#2F376B"
-        android:text="Qual das alternativas apresenta duas figuras de linguagem?"
+        android:text="Leia a frase: “Ela era uma flor em meio ao deserto.” Qual é a figura de linguagem presente?"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/questao1" />
+        app:layout_constraintTop_toBottomOf="@+id/questao2" />
 
     <Button
         android:id="@+id/alt1"
@@ -53,7 +53,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Adjetivo e pronome"
+        android:text="Metonímia"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -61,17 +61,17 @@
         app:layout_constraintTop_toBottomOf="@+id/pergunta1" />
 
     <Button
-        android:id="@+id/alt4"
+        android:id="@+id/alt2"
         android:layout_width="318dp"
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Conjunção e advérbio"
+        android:text="Ironia"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/alt3" />
+        app:layout_constraintTop_toBottomOf="@+id/alt1" />
 
     <Button
         android:id="@+id/alt3"
@@ -79,7 +79,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Sujeito e predicado"
+        android:text="Metáfora"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"
@@ -87,16 +87,18 @@
         app:layout_constraintTop_toBottomOf="@+id/alt2" />
 
     <Button
-        android:id="@+id/alt2"
+        android:id="@+id/alt4"
         android:layout_width="318dp"
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Metáfora e hipérbole"
+        android:text="Anáfora"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/alt1" />
+        app:layout_constraintTop_toBottomOf="@+id/alt3" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
