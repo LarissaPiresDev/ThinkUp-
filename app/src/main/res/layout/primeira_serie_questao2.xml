@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CEE0F5"
-    tools:context=".PrimeiraSerieQuizQuestao1Activity">
+    tools:context=".PrimeiraSerieQuestao2Activity">
 
     <TextView
         android:id="@+id/texto_serie"
@@ -98,6 +98,5 @@
         app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/alt1" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
