@@ -16,6 +16,9 @@
             android:name=".PrimeiraSerieQuestao012Activity"
             android:exported="false" />
         <activity
+            android:name=".PrimeiraSerieQuestao011Activity"
+            android:exported="false" />
+        <activity
             android:name=".PrimeiraSerieQuestao010Activity"
             android:exported="false" />
         <activity
