@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CEE0F5"
-    tools:context=".PrimeiraSerieQuestao10Activity">
+    tools:context=".ResultadoQuestionarioPrimeiraSerieActivity">
 
     <TextView
         android:id="@+id/texto_serie"
@@ -53,6 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Até o Momento Você acertou"
+        android:textColor="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,6 +63,7 @@
         android:id="@+id/textViewResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
         android:layout_marginTop="24dp"
         android:text="Resultado"
         app:layout_constraintEnd_toEndOf="parent"

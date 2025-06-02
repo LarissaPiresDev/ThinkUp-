@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.content.ContextCompat
-import com.example.myapplication.Pontuacao
 
 class PrimeiraSerieQuestao9Activity : AppCompatActivity() {
     lateinit var alternativa1: Button
@@ -34,7 +33,7 @@ class PrimeiraSerieQuestao9Activity : AppCompatActivity() {
 
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao10Activity::class.java)
+                val intent = Intent(this, ResultadoQuestionarioPrimeiraSerieActivity::class.java)
                 startActivity(intent)
             }, 500)
         }
@@ -44,7 +43,7 @@ class PrimeiraSerieQuestao9Activity : AppCompatActivity() {
             alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao10Activity::class.java)
+                val intent = Intent(this, ResultadoQuestionarioPrimeiraSerieActivity::class.java)
                 startActivity(intent)
 
             }, 500)
@@ -55,7 +54,7 @@ class PrimeiraSerieQuestao9Activity : AppCompatActivity() {
             alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao10Activity::class.java)
+                val intent = Intent(this, ResultadoQuestionarioPrimeiraSerieActivity::class.java)
                 startActivity(intent)
             }, 500)
         }
@@ -65,7 +64,7 @@ class PrimeiraSerieQuestao9Activity : AppCompatActivity() {
             alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao10Activity::class.java)
+                val intent = Intent(this, ResultadoQuestionarioPrimeiraSerieActivity::class.java)
                 startActivity(intent)
             }, 500)
         }

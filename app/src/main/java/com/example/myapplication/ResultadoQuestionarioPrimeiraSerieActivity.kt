@@ -6,16 +6,15 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.widget.TextView
-import com.example.myapplication.Pontuacao
 
-class PrimeiraSerieQuestao10Activity : AppCompatActivity() {
+class ResultadoQuestionarioPrimeiraSerieActivity : AppCompatActivity() {
 
     lateinit var textViewResultado: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.primeira_serie_questao10)
+        setContentView(R.layout.resultado_questionario_primeira_serie)
 
         val pontos = Pontuacao.acertos
         textViewResultado = findViewById(R.id.textViewResultado)
