@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CEE0F5"
-    tools:context=".PrimeiraSerieQuestao012Activity">
+    tools:context=".PrimeiraSerieQuestao013Activity">
 
     <TextView
         android:id="@+id/texto_serie"
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
-        android:text="QUESTÃO 12"
+        android:text="QUESTÃO 13"
         android:textColor="@android:color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +40,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="48dp"
         android:backgroundTint="#2F376B"
-        android:text="Qual é a camada mais externa da Terra?"
+        android:text="A fotossíntese ocorre"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -53,7 +53,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Manto"
+        android:text="Apenas à noite"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -66,7 +66,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Núcleo"
+        android:text="Apenas em células animais"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -79,7 +79,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Crosta terrestre"
+        android:text="Com consumo de gás carbônico e produção de glicose"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"
@@ -92,13 +92,11 @@
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Litosfera"
+        android:text="Com liberação de oxigênio e consumo de glicose"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/alt3" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
