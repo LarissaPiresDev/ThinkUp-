@@ -1,19 +1,17 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import android.content.Intent
-import android.os.Handler
-import android.os.Looper
-import android.widget.Button
 import androidx.core.content.ContextCompat
-import com.example.myapplication.Pontuacao
 
-
-class PrimeiraSerieQuestao4Activity : AppCompatActivity() {
+class PrimeiraSerieQuestao005Activity : AppCompatActivity() {
     lateinit var alternativa1: Button
     lateinit var alternativa2: Button
     lateinit var alternativa3: Button
@@ -22,7 +20,7 @@ class PrimeiraSerieQuestao4Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.primeira_serie_questao4)
+        setContentView(R.layout.primeira_serie_questao005)
 
         alternativa1 = findViewById(R.id.alt1)
         alternativa2 = findViewById(R.id.alt2)
@@ -34,7 +32,7 @@ class PrimeiraSerieQuestao4Activity : AppCompatActivity() {
             alternativa1.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao5Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao006Activity::class.java)
                 startActivity(intent)
             }, 500)
         }
@@ -44,7 +42,7 @@ class PrimeiraSerieQuestao4Activity : AppCompatActivity() {
             alternativa1.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao5Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao006Activity::class.java)
                 startActivity(intent)
 
             }, 500)
@@ -55,7 +53,7 @@ class PrimeiraSerieQuestao4Activity : AppCompatActivity() {
             alternativa1.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao5Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao006Activity::class.java)
                 startActivity(intent)
             }, 500)
         }
@@ -65,7 +63,7 @@ class PrimeiraSerieQuestao4Activity : AppCompatActivity() {
             alternativa1.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao5Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao006Activity::class.java)
                 startActivity(intent)
             }, 500)
         }

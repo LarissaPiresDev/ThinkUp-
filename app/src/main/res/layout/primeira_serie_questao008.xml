@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CEE0F5"
-    tools:context=".PrimeiraSerieQuestao9Activity">
+    tools:context=".PrimeiraSerieQuestao008Activity">
+
+
 
     <TextView
         android:id="@+id/texto_serie"
@@ -26,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
-        android:text="QUESTÃO 9"
+        android:text="QUESTÃO 8"
         android:textColor="@android:color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +42,7 @@
         android:layout_height="76dp"
         android:layout_marginTop="48dp"
         android:backgroundTint="#2F376B"
-        android:text="Qual das opções representa um rei absolutista?"
+        android:text=" Qual foi um dos principais motivos da colonização do Brasil pelos portugueses?"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -53,7 +55,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Napoleão Bonaparte"
+        android:text=" A busca por petróleo"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -66,7 +68,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Luís XIV"
+        android:text=" A fuga de guerras europeias"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -79,7 +81,7 @@
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="George Washington"
+        android:text="A exploração de recursos naturais e expansão comercial"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"
@@ -92,7 +94,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Martinho Lutero"
+        android:text="A busca por liberdade religiosa"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

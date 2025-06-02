@@ -13,34 +13,37 @@
         android:theme="@style/Theme.Material3.DayNight.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".PrimeiraSerieQuestao010Activity"
+            android:exported="false" />
+        <activity
             android:name=".ResultadoQuestionarioPrimeiraSerieActivity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao9Activity"
+            android:name=".PrimeiraSerieQuestao009Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao8Activity"
+            android:name=".PrimeiraSerieQuestao008Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao7Activity"
+            android:name=".PrimeiraSerieQuestao007Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao6Activity"
+            android:name=".PrimeiraSerieQuestao006Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao5Activity"
+            android:name=".PrimeiraSerieQuestao005Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao4Activity"
+            android:name=".PrimeiraSerieQuestao004Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao3Activity"
+            android:name=".PrimeiraSerieQuestao003Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao2Activity"
+            android:name=".PrimeiraSerieQuestao002Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuizQuestao1Activity"
+            android:name=".PrimeiraSerieQuestao001Activity"
             android:exported="false" />
         <activity
             android:name=".Questoes1SerieActivity"

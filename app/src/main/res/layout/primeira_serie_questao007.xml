@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CEE0F5"
-    tools:context=".PrimeiraSerieQuestao7Activity">
+    tools:context=".PrimeiraSerieQuestao007Activity">
 
     <TextView
         android:id="@+id/texto_serie"

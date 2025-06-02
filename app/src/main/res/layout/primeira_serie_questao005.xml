@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CEE0F5"
-    tools:context=".PrimeiraSerieQuestao3Activity">
-
+    tools:context=".PrimeiraSerieQuestao005Activity">
 
     <TextView
         android:id="@+id/texto_serie"
@@ -27,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
-        android:text="QUESTÃO 3"
+        android:text="QUESTÃO 5"
         android:textColor="@android:color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +40,7 @@
         android:layout_height="76dp"
         android:layout_marginTop="48dp"
         android:backgroundTint="#2F376B"
-        android:text=" Identifique o sujeito da frase: “Os estudantes foram premiados.”"
+        android:text="Qual é a equação da reta que passa pelos pontos A(2, 3) e B(4, 7)?"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -54,7 +53,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Foram premiados"
+        android:text="y=2x−1y = 2x - 1y=2x−1"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -67,7 +66,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Os estudantes"
+        android:text="y=x+1y = x + 1y=x+1"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -80,7 +79,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Premiados"
+        android:text="y=2x−2y = 2x - 2y=2x−2"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"
@@ -93,12 +92,13 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Nenhuma das alternativas"
+        android:text="y=4x−5y = 4x - 5y=4x−5"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/alt3" />
+
 
 
 

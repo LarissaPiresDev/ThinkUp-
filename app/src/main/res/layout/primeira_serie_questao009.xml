@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CEE0F5"
-    tools:context=".PrimeiraSerieQuestao2Activity">
+    tools:context=".PrimeiraSerieQuestao009Activity">
 
     <TextView
         android:id="@+id/texto_serie"
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
-        android:text="QUESTÃO 2"
+        android:text="QUESTÃO 9"
         android:textColor="@android:color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +40,7 @@
         android:layout_height="76dp"
         android:layout_marginTop="48dp"
         android:backgroundTint="#2F376B"
-        android:text="Leia a frase: “Ela era uma flor em meio ao deserto.” Qual é a figura de linguagem presente?"
+        android:text="Qual das opções representa um rei absolutista?"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -53,7 +53,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Metonímia"
+        android:text="Napoleão Bonaparte"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -66,7 +66,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Ironia"
+        android:text="Luís XIV"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -75,11 +75,11 @@
 
     <Button
         android:id="@+id/alt3"
-        android:layout_width="318dp"
-        android:layout_height="49dp"
+        android:layout_width="319dp"
+        android:layout_height="56dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Metáfora"
+        android:text="George Washington"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"
@@ -92,7 +92,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Anáfora"
+        android:text="Martinho Lutero"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

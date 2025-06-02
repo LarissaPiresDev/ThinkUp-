@@ -1,19 +1,17 @@
 package com.example.myapplication
-import android.content.Intent
-import com.example.myapplication.Pontuacao
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.core.content.ContextCompat
 
-class PrimeiraSerieQuestao2Activity : AppCompatActivity() {
-
+class PrimeiraSerieQuestao009Activity : AppCompatActivity() {
     lateinit var alternativa1: Button
     lateinit var alternativa2: Button
     lateinit var alternativa3: Button
@@ -22,7 +20,7 @@ class PrimeiraSerieQuestao2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.primeira_serie_questao2)
+        setContentView(R.layout.primeira_serie_questao009)
 
         alternativa1 = findViewById(R.id.alt1)
         alternativa2 = findViewById(R.id.alt2)
@@ -31,42 +29,42 @@ class PrimeiraSerieQuestao2Activity : AppCompatActivity() {
 
         alternativa1.setOnClickListener {
             alternativa1.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
-            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao3Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao010Activity::class.java)
                 startActivity(intent)
             }, 500)
         }
 
         alternativa2.setOnClickListener {
-            alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
-            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            Pontuacao.acertos += 1
+            alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao3Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao010Activity::class.java)
                 startActivity(intent)
 
             }, 500)
         }
 
         alternativa3.setOnClickListener {
-            Pontuacao.acertos += 1
-            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
+            alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao3Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao010Activity::class.java)
                 startActivity(intent)
             }, 500)
         }
 
         alternativa4.setOnClickListener {
             alternativa4.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
-            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao3Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao010Activity::class.java)
                 startActivity(intent)
             }, 500)
         }

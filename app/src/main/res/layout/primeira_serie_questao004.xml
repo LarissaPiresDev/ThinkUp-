@@ -6,9 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CEE0F5"
-    tools:context=".PrimeiraSerieQuestao8Activity">
-
-
+    tools:context=".PrimeiraSerieQuestao004Activity">
 
     <TextView
         android:id="@+id/texto_serie"
@@ -28,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
-        android:text="QUESTÃO 8"
+        android:text="QUESTÃO 4"
         android:textColor="@android:color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +40,7 @@
         android:layout_height="76dp"
         android:layout_marginTop="48dp"
         android:backgroundTint="#2F376B"
-        android:text=" Qual foi um dos principais motivos da colonização do Brasil pelos portugueses?"
+        android:text="Resolva: (2x−5)2=49(2x - 5)^2 = 49(2x−5)2=49. Qual é o valor de xxx?"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -55,7 +53,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text=" A busca por petróleo"
+        android:text="6 e -1"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -68,7 +66,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text=" A fuga de guerras europeias"
+        android:text="7 e -2"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -77,11 +75,11 @@
 
     <Button
         android:id="@+id/alt3"
-        android:layout_width="319dp"
-        android:layout_height="56dp"
+        android:layout_width="318dp"
+        android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="A exploração de recursos naturais e expansão comercial"
+        android:text="5 e -5"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"
@@ -94,12 +92,14 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="A busca por liberdade religiosa"
+        android:text="4 e -1"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/alt3" />
+
+
 
 
 

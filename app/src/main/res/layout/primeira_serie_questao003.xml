@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CEE0F5"
-    tools:context=".PrimeiraSerieQuestao4Activity">
+    tools:context=".PrimeiraSerieQuestao003Activity">
+
 
     <TextView
         android:id="@+id/texto_serie"
@@ -26,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
-        android:text="QUESTÃO 4"
+        android:text="QUESTÃO 3"
         android:textColor="@android:color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +41,7 @@
         android:layout_height="76dp"
         android:layout_marginTop="48dp"
         android:backgroundTint="#2F376B"
-        android:text="Resolva: (2x−5)2=49(2x - 5)^2 = 49(2x−5)2=49. Qual é o valor de xxx?"
+        android:text=" Identifique o sujeito da frase: “Os estudantes foram premiados.”"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -53,7 +54,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="6 e -1"
+        android:text="Foram premiados"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -66,7 +67,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="7 e -2"
+        android:text="Os estudantes"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -79,7 +80,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="5 e -5"
+        android:text="Premiados"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"
@@ -92,13 +93,12 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="4 e -1"
+        android:text="Nenhuma das alternativas"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/alt3" />
-
 
 
 
