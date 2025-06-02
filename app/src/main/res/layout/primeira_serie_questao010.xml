@@ -79,8 +79,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
-        android:text="Tempo é o local onde se está, clima é a estação do ano
-"
+        android:text="Tempo é o local onde se está, clima é a estação do ano"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"
@@ -89,8 +88,8 @@
 
     <Button
         android:id="@+id/alt4"
-        android:layout_width="318dp"
-        android:layout_height="49dp"
+        android:layout_width="321dp"
+        android:layout_height="60dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
         android:text="Clima é o que sentimos, tempo é o que medimos"
