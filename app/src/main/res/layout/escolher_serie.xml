@@ -13,15 +13,15 @@
         android:id="@+id/texto_serie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="127dp"
         android:text="ESCOLHA UMA SÉRIE"
         android:textAlignment="center"
         android:textColor="#2F376B"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="60dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Botão 1ª série -->
     <androidx.appcompat.widget.AppCompatButton
@@ -66,17 +66,5 @@
         app:layout_constraintWidth_percent="0.75"/>
 
     <!-- Botão Gabarito -->
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/botao_gabarito"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:text="GABARITO"
-        android:textColor="@android:color/white"
-        android:background="#2F376B"
-        app:layout_constraintTop_toBottomOf="@id/terceira_serie"
-        android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintWidth_percent="0.75"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
