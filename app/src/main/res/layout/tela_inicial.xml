@@ -1,52 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#CEE0F5">
+    android:background="#CEE0F5"
+    tools:context=".MainActivity">
 
-    <!-- Logo -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif-light"
+        android:lineHeight="32sp"
+        android:text="Olá!! \nSeja Bem Vindo ao"
+        android:textAlignment="center"
+        android:textColor="#2F376B"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imagelogo"
-        android:layout_width="216dp"
-        android:layout_height="199dp"
+        android:layout_width="319dp"
+        android:layout_height="257dp"
+        android:layout_marginTop="32dp"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/img01"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="100dp"/>
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:srcCompat="@drawable/img01" />
 
-    <!-- Texto -->
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="0dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-light"
-        android:text="Onde o conhecimento gira em torno de você"
-        android:textColor="#2F376B"
-        android:textSize="19sp"
+        android:text="ThinkUp!"
         android:textAlignment="center"
-        app:layout_constraintTop_toBottomOf="@id/imagelogo"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#2F376B"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp"/>
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagelogo" />
 
-    <!-- Botão -->
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="#2F376B"
         android:text="Começar agora"
         android:textColor="@android:color/white"
-        app:layout_constraintTop_toBottomOf="@id/textView"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="48dp"/>
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Onde o conhecimento gira em torno de você"
+        android:textAlignment="center"
+        android:textColor="#2F376B"
+        android:textSize="21sp"
+        android:lineHeight="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
