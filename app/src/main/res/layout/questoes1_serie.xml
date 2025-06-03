@@ -21,19 +21,49 @@
         android:id="@+id/imagelogo"
         android:layout_width="319dp"
         android:layout_height="257dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="16dp"
         android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_serie"
+        app:srcCompat="@drawable/img01" />
+
+    <TextView
+        android:id="@+id/texto_serie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-light"
+        android:text="QUESTÕES 1°ANO"
+        android:textColor="#2F376B"
+        android:textSize="21dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/img01" />
+        app:layout_constraintTop_toBottomOf="@+id/textoThinkUp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Clique Aqui Para Iniciar o Quiz do 1° Ano do Ensino Médio"
+        android:textAlignment="center"
+        android:textColor="#2F376B"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagelogo" />
 
     <Button
         android:id="@+id/iniciarQuizPrimeiroAno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="#2F376B"
         android:text="Começar agora"
         android:textColor="@android:color/white"
@@ -44,26 +74,10 @@
         app:layout_constraintTop_toBottomOf="@id/textView" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:fontFamily="sans-serif-light"
-        android:text="Clique Aqui Para Iniciar o Quiz do 1° Ano do Ensino Médio"
-        android:textAlignment="center"
-        android:textColor="#2F376B"
-        android:textFontWeight="@integer/material_motion_duration_long_2"
-        android:textSize="19sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imagelogo" />
-
-    <TextView
         android:id="@+id/textoThinkUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="72dp"
         android:fontFamily="sans-serif-light"
         android:text="ThinkUp!"
         android:textAlignment="center"
@@ -71,7 +85,6 @@
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

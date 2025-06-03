@@ -13,9 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif-light"
         android:text="QUESTÕES 1°ANO"
-        android:textColor="@android:color/black"
-        android:textSize="14dp"
+        android:textColor="#2F376B"
+        android:textSize="21dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,9 +28,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif-light"
         android:text="QUESTÃO 5"
-        android:textColor="@android:color/black"
-        android:textSize="15dp"
+        android:textColor="#2F376B"
+        android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,25 +40,27 @@
 
     <Button
         android:id="@+id/pergunta1"
-        android:layout_width="326dp"
-        android:layout_height="76dp"
+        android:layout_width="327sp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:backgroundTint="#2F376B"
         android:text="Qual é a equação da reta que passa pelos pontos A(2, 3) e B(4, 7)?"
         android:textColor="@android:color/white"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/questao2" />
 
     <Button
         android:id="@+id/alt1"
-        android:layout_width="318dp"
-        android:layout_height="49dp"
+        android:layout_width="327sp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
         android:text="y=2x−1y = 2x - 1y=2x−1"
         android:textColor="@android:color/white"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,12 +68,13 @@
 
     <Button
         android:id="@+id/alt2"
-        android:layout_width="318dp"
-        android:layout_height="49dp"
+        android:layout_width="327sp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
         android:text="y=x+1y = x + 1y=x+1"
         android:textColor="@android:color/white"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,32 +82,31 @@
 
     <Button
         android:id="@+id/alt3"
-        android:layout_width="318dp"
-        android:layout_height="49dp"
+        android:layout_width="327sp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
         android:text="y=2x−2y = 2x - 2y=2x−2"
         android:textColor="@android:color/white"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/alt2" />
 
     <Button
         android:id="@+id/alt4"
-        android:layout_width="318dp"
-        android:layout_height="49dp"
+        android:layout_width="327sp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
         android:text="y=4x−5y = 4x - 5y=4x−5"
         android:textColor="@android:color/white"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/alt3" />
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

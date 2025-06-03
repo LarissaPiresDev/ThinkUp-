@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@android:color/white"
     tools:context=".Questoes1AnoActivitys.PrimeiraSerieQuestao009Activity">
 
@@ -13,9 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif-light"
         android:text="QUESTÕES 1°ANO"
-        android:textColor="@android:color/black"
-        android:textSize="14dp"
+        android:textColor="#2F376B"
+        android:textSize="21dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,79 +28,84 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif-light"
         android:text="QUESTÃO 9"
-        android:textColor="@android:color/black"
-        android:textSize="15dp"
+        android:textColor="#2F376B"
+        android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/texto_serie" />
 
     <Button
-        android:id="@+id/pergunta1"
-        android:layout_width="326dp"
-        android:layout_height="76dp"
-        android:layout_marginTop="48dp"
-        android:backgroundTint="#2F376B"
-        android:text="Qual das opções representa um rei absolutista?"
-        android:textColor="@android:color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/questao2" />
-
-    <Button
-        android:id="@+id/alt1"
-        android:layout_width="318dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#4d6f9f"
-        android:text="Napoleão Bonaparte"
-        android:textColor="@android:color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pergunta1" />
-
-    <Button
-        android:id="@+id/alt2"
-        android:layout_width="318dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#4d6f9f"
-        android:text="Luís XIV"
-        android:textColor="@android:color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/alt1" />
-
-    <Button
         android:id="@+id/alt3"
-        android:layout_width="319dp"
-        android:layout_height="56dp"
+        android:layout_width="327sp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
         android:text="George Washington"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/alt2" />
+        app:layout_constraintTop_toBottomOf="@+id/alt2"
+        tools:textSize="16sp" />
+
+    <Button
+        android:id="@+id/alt1"
+        android:layout_width="327sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4d6f9f"
+        android:text="Napoleão Bonaparte"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pergunta1"
+        tools:textSize="16sp" />
 
     <Button
         android:id="@+id/alt4"
-        android:layout_width="318dp"
-        android:layout_height="49dp"
+        android:layout_width="327sp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4d6f9f"
         android:text="Martinho Lutero"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/alt3" />
+        app:layout_constraintTop_toBottomOf="@+id/alt3"
+        tools:textSize="16sp" />
 
+    <Button
+        android:id="@+id/alt2"
+        android:layout_width="327sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4d6f9f"
+        android:text="Luís XIV"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alt1"
+        tools:textSize="16sp" />
+
+    <Button
+        android:id="@+id/pergunta1"
+        android:layout_width="327sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#2F376B"
+        android:text="Qual das opções representa um rei absolutista?"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questao2"
+        tools:textSize="16sp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
