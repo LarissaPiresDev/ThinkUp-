@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.Questoes1AnoActivitys
 
 import android.os.Bundle
 import android.widget.Button
@@ -8,6 +8,9 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.widget.TextView
 import android.content.Intent
+import com.example.myapplication.EscolherSerieActivity
+import com.example.myapplication.Pontuacao
+import com.example.myapplication.R
 
 class ResultadoQuestionarioPrimeiraSerieActivity : AppCompatActivity() {
 

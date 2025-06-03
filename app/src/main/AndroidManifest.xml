@@ -13,52 +13,52 @@
         android:theme="@style/Theme.Material3.DayNight.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".PrimeiraSerieQuestao015Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao015Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao014Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao014Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao013Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao013Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao012Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao012Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao011Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao011Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao010Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao010Activity"
             android:exported="false" />
         <activity
-            android:name=".ResultadoQuestionarioPrimeiraSerieActivity"
+            android:name=".Questoes1AnoActivitys.ResultadoQuestionarioPrimeiraSerieActivity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao009Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao009Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao008Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao008Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao007Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao007Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao006Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao006Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao005Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao005Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao004Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao004Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao003Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao003Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao002Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao002Activity"
             android:exported="false" />
         <activity
-            android:name=".PrimeiraSerieQuestao001Activity"
+            android:name=".Questoes1AnoActivitys.PrimeiraSerieQuestao001Activity"
             android:exported="false" />
         <activity
             android:name=".Questoes1SerieActivity"

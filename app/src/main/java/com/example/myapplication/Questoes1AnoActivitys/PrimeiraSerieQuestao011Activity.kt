@@ -1,69 +1,71 @@
-package com.example.myapplication
+package com.example.myapplication.Questoes1AnoActivitys
 
-import android.content.Intent
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
-import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.content.Intent
+import android.os.Handler
+import android.os.Looper
+import android.widget.Button
 import androidx.core.content.ContextCompat
+import com.example.myapplication.Pontuacao
+import com.example.myapplication.R
 
-class PrimeiraSerieQuestao005Activity : AppCompatActivity() {
-    lateinit var alternativa1: Button
-    lateinit var alternativa2: Button
-    lateinit var alternativa3: Button
-    lateinit var alternativa4: Button
-
+class PrimeiraSerieQuestao011Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        lateinit var alternativa1: Button
+        lateinit var alternativa2: Button
+        lateinit var alternativa3: Button
+        lateinit var alternativa4: Button
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.primeira_serie_questao005)
-
+        setContentView(R.layout.primeira_serie_questao011)
         alternativa1 = findViewById(R.id.alt1)
         alternativa2 = findViewById(R.id.alt2)
         alternativa3 = findViewById(R.id.alt3)
         alternativa4 = findViewById(R.id.alt4)
 
         alternativa1.setOnClickListener {
-            Pontuacao.acertos += 1
-            alternativa1.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            alternativa1.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
+            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao006Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao012Activity::class.java)
                 startActivity(intent)
             }, 500)
         }
 
         alternativa2.setOnClickListener {
             alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
-            alternativa1.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao006Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao012Activity::class.java)
                 startActivity(intent)
 
             }, 500)
         }
 
         alternativa3.setOnClickListener {
-            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
-            alternativa1.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            Pontuacao.acertos += 1
+            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao006Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao012Activity::class.java)
                 startActivity(intent)
             }, 500)
         }
 
         alternativa4.setOnClickListener {
             alternativa4.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
-            alternativa1.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao006Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao012Activity::class.java)
                 startActivity(intent)
             }, 500)
         }

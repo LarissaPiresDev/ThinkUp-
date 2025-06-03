@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.Questoes1AnoActivitys
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -10,17 +10,20 @@ import android.os.Handler
 import android.os.Looper
 import android.widget.Button
 import androidx.core.content.ContextCompat
+import com.example.myapplication.Pontuacao
+import com.example.myapplication.R
 
-class PrimeiraSerieQuestao006Activity : AppCompatActivity() {
-    lateinit var alternativa1: Button
-    lateinit var alternativa2: Button
-    lateinit var alternativa3: Button
-    lateinit var alternativa4: Button
 
+class PrimeiraSerieQuestao014Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        lateinit var alternativa1: Button
+        lateinit var alternativa2: Button
+        lateinit var alternativa3: Button
+        lateinit var alternativa4: Button
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.primeira_serie_questao006)
+        setContentView(R.layout.primeira_serie_questao014)
 
         alternativa1 = findViewById(R.id.alt1)
         alternativa2 = findViewById(R.id.alt2)
@@ -29,45 +32,47 @@ class PrimeiraSerieQuestao006Activity : AppCompatActivity() {
 
         alternativa1.setOnClickListener {
             alternativa1.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
-            alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao007Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao015Activity::class.java)
                 startActivity(intent)
             }, 500)
         }
 
         alternativa2.setOnClickListener {
-            Pontuacao.acertos += 1
-            alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
+            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao007Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao015Activity::class.java)
                 startActivity(intent)
 
             }, 500)
         }
 
         alternativa3.setOnClickListener {
-            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
-            alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            Pontuacao.acertos += 1
+            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao007Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao015Activity::class.java)
                 startActivity(intent)
             }, 500)
         }
 
         alternativa4.setOnClickListener {
             alternativa4.setBackgroundColor(ContextCompat.getColor(this, R.color.red))
-            alternativa2.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
+            alternativa3.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
             Handler(Looper.getMainLooper()).postDelayed({
-                val intent = Intent(this, PrimeiraSerieQuestao007Activity::class.java)
+                val intent = Intent(this, PrimeiraSerieQuestao015Activity::class.java)
                 startActivity(intent)
             }, 500)
         }
+
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
