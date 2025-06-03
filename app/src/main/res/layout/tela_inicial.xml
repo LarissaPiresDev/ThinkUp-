@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:fontFamily="sans-serif-light"
-        android:text="Onde o conhecimento gira em torno de você"
+        android:text="Onde o conhecimento gira em torno de você!"
         android:textAlignment="center"
         android:textColor="#2F376B"
         android:textSize="21sp"
