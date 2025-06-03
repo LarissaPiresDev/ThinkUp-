@@ -18,6 +18,7 @@ class PrimeiraSerieQuestao001Activity : AppCompatActivity() {
     lateinit var alternativa3: Button
     lateinit var alternativa4: Button
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
