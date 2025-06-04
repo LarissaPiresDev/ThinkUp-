@@ -13,6 +13,54 @@
         android:theme="@style/Theme.Material3.DayNight.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".Questoes2AnoActivitys.ResultadoSegundaSerieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao015Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao014Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao013Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao012Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao011Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao010Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao009Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao008Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao007Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao006Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao005Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao004Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao003Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao002Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Questoes2AnoActivitys.SegundaSerieQuestao001Activity"
+            android:exported="false" />
+        <activity
             android:name=".TeladeIntegrantesActivity"
             android:exported="false" />
         <activity
