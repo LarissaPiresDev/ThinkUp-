@@ -11,11 +11,14 @@ import android.content.Intent
 import com.example.myapplication.EscolherSerieActivity
 import com.example.myapplication.Pontuacao
 import com.example.myapplication.R
+import com.example.myapplication.TeladeIntegrantesActivity
 
 class ResultadoQuestionarioPrimeiraSerieActivity : AppCompatActivity() {
 
     lateinit var textViewResultado: TextView
     lateinit var botaoRetornar: Button
+    lateinit var botaoVerIntegrantes: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -25,6 +28,12 @@ class ResultadoQuestionarioPrimeiraSerieActivity : AppCompatActivity() {
         val pontos = Pontuacao.acertos
         textViewResultado = findViewById(R.id.textViewResultado)
         textViewResultado.text = "Você acertou $pontos de 15 perguntas."
+        botaoVerIntegrantes = findViewById(R.id.abrirtelaintegrantes)
+
+        botaoVerIntegrantes.setOnClickListener {
+            val intent = Intent(this, TeladeIntegrantesActivity::class.java)
+            startActivity(intent)
+        }
 
         botaoRetornar.setOnClickListener {
             val intent = Intent(this, EscolherSerieActivity::class.java)
